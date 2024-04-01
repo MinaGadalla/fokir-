@@ -1,0 +1,51 @@
+@media screen and (max-width:1200px){
+ 
+    .about-area .container .image{
+        border: none;
+
+    }
+    .about-area .container{
+        display: flex;
+        justify-content: center;
+
+    }
+}
+@media screen and (max-width:992px){
+   
+    .about-area .container {
+        display: block;
+     max-width: 100%;  
+
+
+  }
+  .about-area .container .image img{
+    width: 100%;
+  }
+  .content{
+    margin-top: 50px;
+  }
+  .btn{
+    display: flex;
+    width: 500px;
+  }
+
+
+
+
+  
+}
+ @media screen and (max-width:600px){
+
+    .card-blog{
+        width: 100%;
+        
+
+    }
+    .blog .container{
+        width: 100%;
+    }
+    .card-blog .card{
+        width: 100%;
+    }
+ 
+}
